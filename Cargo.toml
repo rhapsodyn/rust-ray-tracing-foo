@@ -1,0 +1,12 @@
+[package]
+edition = "2018"
+name = "rust-ray-tracing-foo"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+getrandom = "0.2.4"
+lazy_static = "1.4.0"
+rand = {version = "0.8.4", features = ['small_rng']}
+rayon = "1.5.1"
